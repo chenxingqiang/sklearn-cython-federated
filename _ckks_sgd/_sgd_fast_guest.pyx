@@ -19,15 +19,6 @@ cdef extern from "_sgd_fast_helpers.h":
 from utils._weight_vector cimport WeightVector64 as WeightVector
 from utils._seq_dataset cimport SequentialDataset64 as SequentialDataset
 
-import gaia
-import torch as th
-from gaia.core.tensors.interpreters.ckks import CKKSTensor
-hook = gaia.GaiaHook(th)
-
-from sgd_trnasfer_variable import VerticalSGDTransferVariable
-
-transfer = VerticalSGDTransferVariable()
-
 cnp.import_array()
 
 # Penalty constants

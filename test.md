@@ -1,4 +1,4 @@
-`$ ipython `                                                                                                  15:07:43
+`$ ipython` 
 Python 2.7.12 (default, Oct 11 2016, 05:20:59)
 Type "copyright", "credits" or "license" for more information.
 
